@@ -1,0 +1,72 @@
+:host {
+    ion-content {
+        --background: linear-gradient(to bottom, #f1ebb1 5%, #69ced8 75%)
+    }
+    ion-button{
+        height: 50px;
+    }
+    ion-checkbox{
+        --border-color:transparent;
+        --ion-color-base:#2e8aa4!important;
+    }
+  }
+
+  .login-container{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .login-container ion-card{
+      width: 90%;
+      overflow: visible;
+      background-color: rgba(255,255,255,0.2);
+      border-radius: 10px;
+  }
+
+  .login-top-icon > div{
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      margin: -3rem auto 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .login-top-icon ion-icon{
+      font-size: 2.5rem;
+  }
+  .login-inputs h1{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+
+  .form-group{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 8px 4px;
+    border-radius: 8px;
+    margin-bottom: 01rem;
+  }
+  .login-inputs ion-button{
+      width: 100%;
+      --background: #2e8aa4;
+  }
+
+  .checkbox{
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .d-flex{
+      color: #fff;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+  }
+  .d-flex a{
+      color: #fff;
+  }
+  
